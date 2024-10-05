@@ -36,7 +36,7 @@
 
 HX_DEFINE_STACK_FRAME(_hx_pos_1f119275e66a7b90_7_new,"MenuState","new",0xe563b1c4,"MenuState.new","MenuState.hx",7,0xdfbcb22c)
 HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_10_create,"MenuState","create",0xe57b7c18,"MenuState.create","MenuState.hx",10,0xdfbcb22c)
-HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_21_update,"MenuState","update",0xf0719b25,"MenuState.update","MenuState.hx",21,0xdfbcb22c)
+HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_39_update,"MenuState","update",0xf0719b25,"MenuState.update","MenuState.hx",39,0xdfbcb22c)
 
 void MenuState_obj::__construct(){
             	HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_7_new)
@@ -73,40 +73,31 @@ bool MenuState_obj::_hx_isInstanceOf(int inClassId) {
 void MenuState_obj::create(){
             	HX_GC_STACKFRAME(&_hx_pos_1f119275e66a7b90_10_create)
 HXLINE(  11)		this->super::create();
-HXLINE(  12)		 ::flixel::FlxSprite TestBG1 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),HX_("images/Menu/Main/bg",62,7c,91,e2));
-HXLINE(  13)		{
-HXLINE(  13)			int axes = 17;
-HXDLIN(  13)			bool _hx_tmp;
-HXDLIN(  13)			if ((axes != 1)) {
-HXLINE(  13)				_hx_tmp = (axes == 17);
-            			}
-            			else {
-HXLINE(  13)				_hx_tmp = true;
-            			}
-HXDLIN(  13)			if (_hx_tmp) {
-HXLINE(  13)				int _hx_tmp = ::flixel::FlxG_obj::width;
-HXDLIN(  13)				TestBG1->set_x(((( (Float)(_hx_tmp) ) - TestBG1->get_width()) / ( (Float)(2) )));
-            			}
-HXDLIN(  13)			bool _hx_tmp1;
-HXDLIN(  13)			if ((axes != 16)) {
-HXLINE(  13)				_hx_tmp1 = (axes == 17);
-            			}
-            			else {
-HXLINE(  13)				_hx_tmp1 = true;
-            			}
-HXDLIN(  13)			if (_hx_tmp1) {
-HXLINE(  13)				int _hx_tmp = ::flixel::FlxG_obj::height;
-HXDLIN(  13)				TestBG1->set_y(((( (Float)(_hx_tmp) ) - TestBG1->get_height()) / ( (Float)(2) )));
-            			}
-            		}
-HXLINE(  14)		this->add(TestBG1);
-HXLINE(  16)		::flixel::FlxG_obj::sound->playMusic(HX_("assets/music/BB1/TitleTheme1.ogg",2d,5e,1e,5e),1,true,null());
+HXLINE(  12)		 ::flixel::FlxSprite BG =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXLINE(  13)		BG->loadGraphic(HX_("assets/images/Menu/Main/bg.png",d1,21,7d,7e),null(),null(),null(),null(),null());
+HXLINE(  14)		this->add(BG);
+HXLINE(  16)		 ::flixel::FlxSprite BB1 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXLINE(  17)		BB1->loadGraphic(HX_("assets/images/Menu/Main/bb1.png",bb,da,cc,bd),null(),null(),null(),null(),null());
+HXLINE(  18)		this->add(BB1);
+HXLINE(  19)		BB1->set_y(( (Float)(100) ));
+HXLINE(  20)		BB1->set_x(( (Float)(50) ));
+HXLINE(  22)		 ::flixel::FlxSprite bb2 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXLINE(  23)		bb2->loadGraphic(HX_("assets/images/Menu/Main/bb2.png",3c,6f,33,51),null(),null(),null(),null(),null());
+HXLINE(  24)		this->add(bb2);
+HXLINE(  25)		bb2->set_y(( (Float)(100) ));
+HXLINE(  26)		bb2->set_x(( (Float)(350) ));
+HXLINE(  28)		 ::flixel::FlxSprite bb3 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXLINE(  29)		bb3->loadGraphic(HX_("assets/images/Menu/Main/bb3.png",bd,03,9a,e4),null(),null(),null(),null(),null());
+HXLINE(  30)		this->add(bb3);
+HXLINE(  31)		bb3->set_y(( (Float)(100) ));
+HXLINE(  32)		bb3->set_x(( (Float)(650) ));
+HXLINE(  34)		::flixel::FlxG_obj::sound->playMusic(HX_("assets/music/BB1/TitleTheme1.ogg",2d,5e,1e,5e),1,true,null());
             	}
 
 
 void MenuState_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_21_update)
-HXDLIN(  21)		this->super::update(elapsed);
+            	HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_39_update)
+HXDLIN(  39)		this->super::update(elapsed);
             	}
 
 

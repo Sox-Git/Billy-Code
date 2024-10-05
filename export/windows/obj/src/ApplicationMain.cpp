@@ -177,7 +177,7 @@ HXLINE( 121)			::ApplicationMain_obj::start(stage);
             	HX_GC_STACKFRAME(&_hx_pos_6fcf922b66429816_31_create)
 HXLINE(  32)		 ::openfl::display::Application app =  ::openfl::display::Application_obj::__alloc( HX_CTX );
 HXLINE(  35)		::ManifestResources_obj::init(config);
-HXLINE(  38)		app->meta->set(HX_("build",2e,db,ea,ba),HX_("8",38,00,00,00));
+HXLINE(  38)		app->meta->set(HX_("build",2e,db,ea,ba),HX_("9",39,00,00,00));
 HXLINE(  39)		app->meta->set(HX_("company",3d,15,69,83),HX_("HaxeFlixel",42,8f,0c,ac));
 HXLINE(  40)		app->meta->set(HX_("file",7c,ce,bb,43),HX_("FlxProject",a7,cc,16,25));
 HXLINE(  41)		app->meta->set(HX_("name",4b,72,ff,48),HX_("FlxProject",a7,cc,16,25));
@@ -186,12 +186,12 @@ HXLINE(  43)		app->meta->set(HX_("version",18,e7,f1,7c),HX_("0.0.1",35,3d,c8,c1)
 HXLINE(  49)		 ::Dynamic attributes =  ::Dynamic(::hx::Anon_obj::Create(16)
             			->setFixed(0,HX_("resizable",6b,37,50,a9),false)
             			->setFixed(1,HX_("allowHighDPI",92,07,a2,b4),false)
-            			->setFixed(2,HX_("width",06,b6,62,ca),640)
+            			->setFixed(2,HX_("width",06,b6,62,ca),960)
             			->setFixed(3,HX_("fullscreen",3b,3a,b4,f9),false)
             			->setFixed(4,HX_("maximized",18,0e,e1,fe),false)
             			->setFixed(5,HX_("x",78,00,00,00),null())
             			->setFixed(6,HX_("y",79,00,00,00),null())
-            			->setFixed(7,HX_("height",e7,07,4c,02),480)
+            			->setFixed(7,HX_("height",e7,07,4c,02),720)
             			->setFixed(8,HX_("element",bc,ae,54,06),null())
             			->setFixed(9,HX_("title",98,15,3b,10),HX_("FlxProject",a7,cc,16,25))
             			->setFixed(10,HX_("alwaysOnTop",67,4d,53,16),false)
