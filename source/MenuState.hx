@@ -8,7 +8,7 @@ class PlayState extends FlxState
 	override public function create()
 	{
 		super.create();
-		var TestBG1 = new FlxSprite('images/Menu/Main/bg.png');
+		var TestBG1 = new FlxSprite('images/Menu/Main/bg');
 
 		TestBG1.screenCenter();
 		add(TestBG1);
