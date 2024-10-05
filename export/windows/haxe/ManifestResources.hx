@@ -133,8 +133,8 @@ import sys.FileSystem;
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_music_bb1_detroit_clean_wav extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_music_bb1_detroit_theme__secret__mp3 extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_music_bb1_grandma_hit_the_stairs__unused__wav extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_music_bb1_main_theme_wav extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_music_bb1_theme_of_my_dead_goldfish_wav extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_music_bb1_titletheme_ogg extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_sounds_bb1_death_mp3 extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_sounds_bb1_fart_wav extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_sounds_bb1_pop_wav extends null { }

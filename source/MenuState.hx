@@ -1,9 +1,10 @@
 package;
 
+import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.FlxState;
 
-class PlayState extends FlxState
+class MenuState extends FlxState
 {
 	override public function create()
 	{
@@ -12,7 +13,7 @@ class PlayState extends FlxState
 		TestBG1.screenCenter();
 		add(TestBG1);
 
-		FlxG.music.play(Paths.music('BB1/TitleTheme'));
+		FlxG.music.play('BB1/TitleTheme');
 	}
 
 	override public function update(elapsed:Float)
