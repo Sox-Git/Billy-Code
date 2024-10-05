@@ -13,7 +13,7 @@ class MenuState extends FlxState
 		TestBG1.screenCenter();
 		add(TestBG1);
 
-		FlxG.music.play('BB1/TitleTheme');
+		FlxG.sound.playMusic(AssetPaths.TitleTheme1__ogg, 1, true);
 	}
 
 	override public function update(elapsed:Float)

@@ -8909,8 +8909,8 @@
    <depend name="include/Reflect.h"/>
    <depend name="include/haxe/Exception.h"/>
   </file>
-  <file name="src/PlayState.cpp" >
-   <depend name="include/PlayState.h"/>
+  <file name="src/MenuState.cpp" >
+   <depend name="include/MenuState.h"/>
    <depend name="include/flixel/FlxBasic.h"/>
    <depend name="include/flixel/FlxG.h"/>
    <depend name="include/flixel/FlxObject.h"/>
@@ -8918,6 +8918,8 @@
    <depend name="include/flixel/FlxState.h"/>
    <depend name="include/flixel/group/FlxTypedContainer.h"/>
    <depend name="include/flixel/group/FlxTypedGroup.h"/>
+   <depend name="include/flixel/sound/FlxSoundGroup.h"/>
+   <depend name="include/flixel/system/frontEnds/SoundFrontEnd.h"/>
    <depend name="include/flixel/util/IFlxDestroyable.h"/>
   </file>
   <file name="src/flixel/FlxState.cpp" >
@@ -9145,6 +9147,9 @@
    <depend name="include/Std.h"/>
    <depend name="include/haxe/Exception.h"/>
   </file>
+  <file name="src/AssetPaths.cpp" >
+   <depend name="include/AssetPaths.h"/>
+  </file>
   <file name="src/DocumentClass.cpp" >
    <depend name="include/DocumentClass.h"/>
    <depend name="include/Main.h"/>
@@ -9159,7 +9164,7 @@
   </file>
   <file name="src/Main.cpp" >
    <depend name="include/Main.h"/>
-   <depend name="include/PlayState.h"/>
+   <depend name="include/MenuState.h"/>
    <depend name="include/flixel/FlxBasic.h"/>
    <depend name="include/flixel/FlxGame.h"/>
    <depend name="include/flixel/FlxState.h"/>
@@ -9854,6 +9859,7 @@
    <depend name="include/__ASSET__flixel_fonts_nokiafc22_ttf.h"/>
    <depend name="include/__ASSET__flixel_sounds_flixel_ogg.h"/>
    <depend name="include/__ASSET__flixel_sounds_beep_ogg.h"/>
+   <depend name="include/AssetPaths.h"/>
    <depend name="include/openfl/display/DisplayObject.h"/>
    <depend name="include/openfl/_Vector/Vector_Impl_.h"/>
    <depend name="include/ApplicationMain.h"/>
